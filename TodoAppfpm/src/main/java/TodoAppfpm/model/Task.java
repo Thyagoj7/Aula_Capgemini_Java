@@ -76,6 +76,42 @@ public class Task {
         return updateAt;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setIdProject(int idProject) {
+        this.idProject = idProject;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setCompletedAt(boolean completedAt) {
+        this.completedAt = completedAt;
+    }
+
+    public void setNotes(String notes) {
+        this.notes = notes;
+    }
+
+    public void setDeadline(Date deadline) {
+        this.deadline = deadline;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    public void setUpdateAt(Date updateAt) {
+        this.updateAt = updateAt;
+    }
+
     @Override
     public String toString() {
         return "Tasks{" + "id=" + id + ", idProject=" + idProject + ", name=" + name + ", description=" + description + ", completedAt=" + completedAt + ", notes=" + notes + ", deadline=" + deadline + ", crateAt=" + createdAt + ", updateAt=" + updateAt + '}';
